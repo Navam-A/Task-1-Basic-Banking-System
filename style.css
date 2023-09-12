@@ -1,0 +1,200 @@
+/* BoilerPlate */
+html{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    opacity: .9;
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.col-6{
+    height: 100%;
+    width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Navbar CSS */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 9vh;
+    width: 100%;
+    font-size: 1.2vw;
+    background-color: #8CABFF;
+    box-shadow: 0px 10px 10px 0px rgba(6, 3, 17, 0.171) !important;
+    backdrop-filter: blur(25px) !important;
+}
+
+.nav-brand{
+    font-size: 1.5vw;
+    color: #EEEDED;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color:#19549B;
+}
+
+.nav-brand:hover{
+    text-decoration: none;
+    color: #19549B;
+}
+
+/* Home Page Content CSS */
+
+.container{
+    position: relative;
+    height: 85vh;
+    width: 100%;
+    text-transform: capitalize;
+
+}
+
+.float-right{
+    position: absolute;
+    top: 1%;
+    left: 60%;
+    height: 100%;
+    width: 60%;
+}
+
+h2:first-child{
+    padding-top: 20vh;
+}
+
+.tagLine{
+    font-weight: 700;
+    font-size: 3vw;
+    color: #1450A3;
+
+}
+
+.span{
+    color: #35A29F;
+}
+
+.get-started{
+    position: absolute;
+    z-index: 1;
+    top: 55%;
+    left: 16%;
+    background-color: #73ADFF;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    
+}
+
+.get-started:hover {
+    text-decoration: none;
+    border: #19549B solid .5px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    color: #19549B;
+    transition: all 0.5 ease;
+
+}
+
+/* Footer CSS */
+
+footer{
+    margin: 4vh auto;
+    height: 9vh;
+    font-size: 1.5vw;
+    color: white;
+    background-color: #35A29F;
+    text-align: center;
+    z-index: 9999;
+}
+
+.author{
+    color: #092d56;
+}
+
+.social-icons li {
+    font-size: 2vh;
+    list-style: none;
+    display: inline;
+    margin-top: 2vw;
+}
+
+.fa-github{
+    color: black;
+}
+
+.social-icons li .white1{
+    color: #0077b5 !important;
+}
+
+.social-icons li .white1:hover {
+    color: #fff !important;
+}
+
+/* Customer Send Money / Transactions CSS */
+
+.my-info {
+    padding: 2rem 5rem;
+}
+
+.btn-info {
+    padding: 1rem 1.2rem;
+    background-color: #355070 !important;
+    color: #fff !important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+.btn-info:hover {
+    background-color: #092d56 !important;
+}
+
+/* Customer Table CSS */
+
+.table-responsive{
+    border: #0077b5 1px solid;
+}
+
+.table-content{
+    padding: 0 8%;
+}
+
+table{
+    text-align: center;
+    border-radius: 10px;
+}
+
+.table .table-dg{
+    background-color: #97b3ff;
+    color: white;
+}
+
+#alert{
+    display: none;
+    margin: 20px 13% 0 13%;
+    border-radius: 10px;
+}
